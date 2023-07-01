@@ -52,7 +52,7 @@ _atti_control->get_rate_roll_pid().set_integrator(_atti_control->rate_bf_targets
 Currently, there 4 custom controller backend available. These are 
 - Empty backend `CC_TYPE` = 1
 - PID backend `CC_TYPE` = 2
-
+- ADRC backend `CC_TYPE` = 3
 ### Empty Controller - `CC_TYPE` = 1
 The empty controller does not do any calculations. It is created to make it easier to copy and implement your new controller. The main controller is not reset when switching from an empty controller.
 
